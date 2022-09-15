@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="714699BF-ADDC-7AA7-E396-61402DAACE34" name="AUDIT_TABLE">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:23:28 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="aud_id" id="99469EC0-9666-04F3-E2CE-40A0710DD11E">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:24:57 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_dt_hora" id="44CC1735-1168-600B-0887-29A4390C74FE">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:25:59 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_evento" id="6CB96079-38A3-F16E-B2AE-534990B48A0D">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:26:19 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_tabela" id="4063FF04-836A-A549-C599-AB524D9C1F6F">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:27:42 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_owner" id="75FE0DF6-C2C4-52B8-BBA4-F3F179B03F62">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:27:42 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_campo" id="6828FF81-5505-D01E-46FA-CF0019839618">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:28:07 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_old" id="9FBD7EF9-9C6A-077D-ADD0-6538D71C8915">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:28:07 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_new" id="FE5E6152-C373-B804-6DA0-2D59D7246FF4">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:28:23 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_identificador" id="79FC17F4-39D3-132A-AB6F-16B23A52D135">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:28:39 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_user_bd" id="1C6B01B5-A0BF-B519-B443-8A604EBD32F5">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:28:53 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFE03528-3433-FA6F-DEBC-74B9C869DD23" name="PK_AUD">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 21:26:35 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99469EC0-9666-04F3-E2CE-40A0710DD11E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

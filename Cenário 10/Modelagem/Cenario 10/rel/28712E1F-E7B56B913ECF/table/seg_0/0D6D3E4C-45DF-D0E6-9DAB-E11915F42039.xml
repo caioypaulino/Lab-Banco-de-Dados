@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D6D3E4C-45DF-D0E6-9DAB-E11915F42039" name="REGISTROS">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Tabela com finalidade o armazenamento de dados dos registros de compra de materiais]]></comment>
+<generatorID>7C906D2A-D498-60E5-4056-0FEEF5A0CB8E</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reg_id" id="D087CF25-1303-8998-BC9C-CB6228AA4E5A">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Número identificador de registro]]></comment>
+<generatorID>D0209800-6DA9-97E6-D3FA-087B9B3B4F93</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reg_data_aquisicao" id="A1DE300E-4B3D-8E0C-6194-0A8882F19A75">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Data de aquisição do material]]></comment>
+<generatorID>10C1D8CF-4D6A-9E25-5C77-96A58A4CBC47</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reg_quantidade" id="E1E2138D-90B3-7E5A-4A3F-F1E7635E117B">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Número equivalente a quantidade de material fornecido]]></comment>
+<generatorID>E89A37D3-D68B-06EF-16DE-8EBBC77F5B37</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATERIAIS_mat_id" id="3B6E8FCB-77A9-0726-FC7B-06FDB6E6E4F6">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>0C93AC65-97D5-AFEB-F635-E5D971EC920B</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="673F50FF-5627-78EF-6AC0-C3CEA36F95B9" referredColumn="ECF74C63-0484-32B2-5BAE-021C5546F7E6"/>
+</associations>
+</Column>
+<Column name="FORNECEDORES_for_id" id="BAD7F41C-9831-C9A0-C8AB-86CB1EB31DB4">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>C354205B-714B-662A-3019-07B48D3E9CC5</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24778A18-7FC9-E9BB-6571-A4EFF5B6AA2A" referredColumn="3A111F6D-723C-5AD4-F154-DE76F9143533"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5D8D9D9-A462-C5BF-94AE-C560CA591B42" name="PK_REG">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>E54A2941-2686-367D-43E7-EA136A4E12A5</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D087CF25-1303-8998-BC9C-CB6228AA4E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D389229A-D40A-EFA3-AFDF-F03E45EC75AD" name="FK_REG_MAT">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>4B56A56F-CC7B-00AF-6B6B-53736611A471</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B6E8FCB-77A9-0726-FC7B-06FDB6E6E4F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16AF1EA0-5ED4-4B2F-05DD-71986DF2A2AF" name="FK_REG_FOR">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>5182ED74-E421-2DF3-8439-212A0E820D02</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAD7F41C-9831-C9A0-C8AB-86CB1EB31DB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

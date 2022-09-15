@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="411002D7-E01F-E5D8-E1E1-E1F30CB98729" name="H_VENDAS">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:11:06 UTC</createdTime>
+<comment><![CDATA[Tabela com finalidade o armazenamento de dados das vendas]]></comment>
+<generatorID>838DDF6B-1554-B4FF-B434-5E50D297E1AF</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<ordsAlias>vendasv1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hvnd_id" id="6BB42420-BBF9-9EB5-2CE5-92A00C12256E">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:11:06 UTC</createdTime>
+<comment><![CDATA[Número identificador de venda]]></comment>
+<generatorID>DD59E74A-1737-F1EF-210D-D9C340F9AEEF</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hvnd_data_hora" id="776E0305-8D35-EB60-B25E-E12F0C4A11EF">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:11:06 UTC</createdTime>
+<comment><![CDATA[Data e Hora em que a venda foi realizada]]></comment>
+<generatorID>5A699894-7BFA-C103-781A-ACCAE675783F</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hvnd_valor" id="F80501B4-E6BD-005B-B329-5EA6EC387384">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:11:06 UTC</createdTime>
+<comment><![CDATA[Valor total da venda]]></comment>
+<generatorID>E87E5684-FF94-6E5D-A7B4-FCB19C302F9A</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hvnd_cpf_cnpj" id="1B727DF9-4F58-5E4C-BC7A-AC482A61B396">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:11:06 UTC</createdTime>
+<comment><![CDATA[CPF ou CNPJ do comprador]]></comment>
+<generatorID>56F12081-4967-8F6F-505D-DF547976FED1</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hFUNCIONARIOS_fun_id" id="5674E37A-C785-4588-A405-36C998E078B6">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:11:06 UTC</createdTime>
+<generatorID>87C5146C-BD54-C0F9-CFAA-3D4B58F58694</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hvnd_dt_entrada " id="CBF2EFC6-35F8-6DA0-9722-455FA01C3453">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-17 20:06:33 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E09F075-DF0F-CBD3-B251-08233C6A4A6B" name="PK_HVND">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:11:06 UTC</createdTime>
+<generatorID>465FA131-7487-0062-2037-7497E1B9DF56</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BB42420-BBF9-9EB5-2CE5-92A00C12256E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

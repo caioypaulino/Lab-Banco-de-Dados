@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1739A3FA-295E-EC1F-D90E-69747A249452" containerWithKeyObject="0D61EC66-BDBF-5B83-2666-0CE4237E1FFB" localFKIndex="71B903A8-3D70-E895-4A8D-EEA56B055E36" name="FK_MAT_TIP">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>E42D6D96-556C-21D0-7604-F0BA25A7402D</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<referredTableLongName>TIPOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FFEFA599-E736-0BCB-3A89-0077EFEF3673</referredTableID>
+<keyObject>24DC2016-17B3-0321-0D77-087790E57AAA</keyObject>
+<referredKeyID>24DC2016-17B3-0321-0D77-087790E57AAA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tip_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

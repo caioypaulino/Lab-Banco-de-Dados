@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pertencem" directorySegmentName="seg_0" id="69C862F2-1F78-B10E-B8E8-894A5BA69772">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:44:53 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9572B851-3568-9D6D-0C72-047409320CDD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>838DDF6B-1554-B4FF-B434-5E50D297E1AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="per_id" id="8EC56A20-84BB-3057-6C86-C83A045532F1">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 20:46:19 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</attribute>
+<attribute name="per_quantidade_vendida" id="F17A0BDD-2B2D-DC51-E4CB-FB5258E357F4">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 03:00:58 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

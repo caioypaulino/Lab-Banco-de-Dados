@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C906D2A-D498-60E5-4056-0FEEF5A0CB8E" name="REGISTROS">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:04:07 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="reg_id" id="D0209800-6DA9-97E6-D3FA-087B9B3B4F93">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:06:04 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reg_data_aquisicao" id="10C1D8CF-4D6A-9E25-5C77-96A58A4CBC47">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:04:16 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reg_quantidade" id="E89A37D3-D68B-06EF-16DE-8EBBC77F5B37">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:04:16 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mat_id" id="0C93AC65-97D5-AFEB-F635-E5D971EC920B">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:07:06 UTC</createdTime>
+<generatorID>4B56A56F-CC7B-00AF-6B6B-53736611A471</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<referedAttribute>748BDDCC-C74A-3938-4D53-92EAE71BC01B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="for_id" id="C354205B-714B-662A-3019-07B48D3E9CC5">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:06 UTC</createdTime>
+<generatorID>5182ED74-E421-2DF3-8439-212A0E820D02</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<referedAttribute>5CA3A26C-367C-CD5C-CF97-D8FDAEF4F3EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E54A2941-2686-367D-43E7-EA136A4E12A5" name="Registros PK">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:08:48 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0209800-6DA9-97E6-D3FA-087B9B3B4F93</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

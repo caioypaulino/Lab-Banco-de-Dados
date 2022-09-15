@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F47DBDF-C060-AA6D-7CCD-BBDF8E959B88" name="Pertencem">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Tabela com finalidade o relacionamento de dados entre materiais e vendas]]></comment>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="per_id" id="9411D859-C3A5-4D7B-301B-A38B513CF398">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 20:26:01 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="per_quantidade_vendida" id="56FE2DDE-3F08-588B-D447-557DF5D49E4D">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 03:02:24 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATERIAIS_mat_id" id="240BC7F6-EEE0-CB73-6DA4-241DC6895816">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FEDD2F7-0498-3A14-BA74-EEF557142F9F" referredColumn="ECF74C63-0484-32B2-5BAE-021C5546F7E6"/>
+</associations>
+</Column>
+<Column name="VENDAS_vnd_id" id="B6F06F5E-EE62-FD07-BD59-C7ED377156DC">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3653D7C0-FA44-51D1-3B9D-7368C059D003" referredColumn="A77CB4DC-2920-895D-BC6A-21BCE9878FC5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6CF08F7-CED6-5AD5-591B-FF385F090648" name="PK_PER">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-20 20:27:04 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9411D859-C3A5-4D7B-301B-A38B513CF398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A11B2FB-08EE-6982-D6E8-0425BC3AB82A" name="FK_PRT_MAT">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>69C862F2-1F78-B10E-B8E8-894A5BA69772</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="240BC7F6-EEE0-CB73-6DA4-241DC6895816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DED80FF6-245E-CE0A-36A9-F47A4FC43490" name="FK_PRT_VND">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>69C862F2-1F78-B10E-B8E8-894A5BA69772</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6F06F5E-EE62-FD07-BD59-C7ED377156DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

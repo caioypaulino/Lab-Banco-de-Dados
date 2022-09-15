@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6B469FC-604F-EF8B-0CC6-34AB7CBE504E" name="H_FUNCIONARIOS">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:12:12 UTC</createdTime>
+<comment><![CDATA[Tabela com finalidade o armazenamento de dados dos funcionários ]]></comment>
+<generatorID>4D396128-3788-B36C-0E81-A9572AC86435</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<ordsAlias>funcionariosv1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hfun_id" id="5608A379-1B8A-571C-6B42-EC51E845D811">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:12:12 UTC</createdTime>
+<comment><![CDATA[Número identificador de funcionário]]></comment>
+<generatorID>F351CB05-69E6-60DA-ABB8-19DB9941CF5D</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hfun_matricula" id="C4A75A07-7A35-8693-4125-58F466F0A124">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:12:12 UTC</createdTime>
+<comment><![CDATA[Número de matrícula do funcionário]]></comment>
+<generatorID>1A196D15-5B2E-A186-E475-8DA00528F435</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hfun_primeiro_nome" id="1FF04907-9906-0366-E519-DAD57923F526">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:12:12 UTC</createdTime>
+<comment><![CDATA[Primeiro nome do funcionário ]]></comment>
+<generatorID>3E0E05D0-F52B-B5B9-3EB0-A7EFACD10D4F</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hfun_nome_meio" id="6A355A10-A825-E85C-03C4-7BC5597948DD">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:12:12 UTC</createdTime>
+<comment><![CDATA[Nome do meio do funcionário ]]></comment>
+<generatorID>7AA69970-761C-FB7E-2EE5-630F112DFE45</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hfun_sobrenome" id="E04C19A3-5688-63F8-447D-D68747ED444E">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:12:12 UTC</createdTime>
+<comment><![CDATA[Sobrenome do funcionário]]></comment>
+<generatorID>9F623316-C6BF-98D4-E5E0-D6D134F8A0AB</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hfun_data_contratacao" id="7ED8926D-CB23-C5A2-E80B-F98B168748DA">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:12:12 UTC</createdTime>
+<comment><![CDATA[Data de contratação do funcionário]]></comment>
+<generatorID>F33EDD29-1867-E294-D103-2B190A8BEF22</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hfun_dt_entrada " id="E0BF802A-FDD3-E902-6F29-09A5666B2FC4">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-17 20:06:56 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="885C82B0-9F42-CFAC-06E0-B54070B421DF" name="PK_HFUN">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:12:12 UTC</createdTime>
+<generatorID>5C96B222-E617-19F9-1740-B22322770956</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5608A379-1B8A-571C-6B42-EC51E845D811"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

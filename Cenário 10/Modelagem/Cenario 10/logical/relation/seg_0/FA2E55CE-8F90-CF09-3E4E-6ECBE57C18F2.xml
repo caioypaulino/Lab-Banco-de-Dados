@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realizam" directorySegmentName="seg_0" id="FA2E55CE-8F90-CF09-3E4E-6ECBE57C18F2">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:42:39 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<sourcePk>5C96B222-E617-19F9-1740-B22322770956</sourcePk>
+<targetPk>465FA131-7487-0062-2037-7497E1B9DF56</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4D396128-3788-B36C-0E81-A9572AC86435</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>838DDF6B-1554-B4FF-B434-5E50D297E1AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

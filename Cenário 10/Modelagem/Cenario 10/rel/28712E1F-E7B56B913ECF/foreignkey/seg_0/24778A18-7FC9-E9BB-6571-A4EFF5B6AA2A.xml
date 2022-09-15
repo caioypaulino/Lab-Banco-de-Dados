@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24778A18-7FC9-E9BB-6571-A4EFF5B6AA2A" containerWithKeyObject="0D6D3E4C-45DF-D0E6-9DAB-E11915F42039" localFKIndex="16AF1EA0-5ED4-4B2F-05DD-71986DF2A2AF" name="FK_REG_FOR">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>5182ED74-E421-2DF3-8439-212A0E820D02</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<referredTableLongName>FORNECEDORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13DC0E9B-4214-4F3A-1E23-C8FE6788E35B</referredTableID>
+<keyObject>7D8E3D26-9F6C-7DD7-0C1F-0FBB3348B770</keyObject>
+<referredKeyID>7D8E3D26-9F6C-7DD7-0C1F-0FBB3348B770</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>for_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

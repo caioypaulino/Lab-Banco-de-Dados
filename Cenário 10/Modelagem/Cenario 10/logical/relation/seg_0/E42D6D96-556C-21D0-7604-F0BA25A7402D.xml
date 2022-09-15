@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Possuemv1" directorySegmentName="seg_0" id="E42D6D96-556C-21D0-7604-F0BA25A7402D">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-16 00:25:51 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<sourcePk>231EE635-6B8D-FC68-F201-CF071F269730</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AAF18E2A-B61E-4D0F-8364-F584BF266C81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9572B851-3568-9D6D-0C72-047409320CDD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

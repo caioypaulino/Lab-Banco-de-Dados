@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72AAF0C8-C8AB-2536-6EC0-EE6F76CD0D23" name="VENDAS">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Tabela com finalidade o armazenamento de dados das vendas]]></comment>
+<generatorID>838DDF6B-1554-B4FF-B434-5E50D297E1AF</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vnd_id" id="A77CB4DC-2920-895D-BC6A-21BCE9878FC5">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Número identificador de venda]]></comment>
+<generatorID>DD59E74A-1737-F1EF-210D-D9C340F9AEEF</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vnd_data_hora" id="03CC0CD6-64F9-4FCE-1932-4FD37EA9E302">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Data e Hora em que a venda foi realizada]]></comment>
+<generatorID>5A699894-7BFA-C103-781A-ACCAE675783F</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vnd_valor" id="839DA340-9E2A-598B-EB35-D3FA255C96D3">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Valor total da venda]]></comment>
+<generatorID>E87E5684-FF94-6E5D-A7B4-FCB19C302F9A</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vnd_cpf_cnpj" id="1F921E28-6F37-FB08-0739-EF8A9F8AF6BD">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[CPF ou CNPJ do comprador]]></comment>
+<generatorID>56F12081-4967-8F6F-505D-DF547976FED1</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUNCIONARIOS_fun_id" id="7AEBFBDE-0350-66C5-D8E8-30A08E6F70B6">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>87C5146C-BD54-C0F9-CFAA-3D4B58F58694</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="766E332E-31A3-84C6-8CED-51EA89BC669F" referredColumn="C2573393-C76C-DEB0-5166-D7EBE1B714EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E60F9898-CA04-3FED-4B9C-B75FBA0031CA" name="PK_VND">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>465FA131-7487-0062-2037-7497E1B9DF56</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A77CB4DC-2920-895D-BC6A-21BCE9878FC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99298395-9299-6A83-C64E-72CC884367B7" name="FK_VND_FUN">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>FA2E55CE-8F90-CF09-3E4E-6ECBE57C18F2</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AEBFBDE-0350-66C5-D8E8-30A08E6F70B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

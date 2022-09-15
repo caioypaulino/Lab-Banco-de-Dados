@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DD8AFAE-E784-B602-E89D-A785920CE5B4" name="H_MATERIAIS">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:05:26 UTC</createdTime>
+<comment><![CDATA[Tabela com finalidade o armazenamento de dados dos materiais]]></comment>
+<generatorID>9572B851-3568-9D6D-0C72-047409320CDD</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<ordsAlias>materiaisv1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hmat_id" id="3511DE2F-DCD8-A439-4BFA-D05686A3F6AF">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:05:26 UTC</createdTime>
+<comment><![CDATA[Número identificador de material]]></comment>
+<generatorID>748BDDCC-C74A-3938-4D53-92EAE71BC01B</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hmat_nome" id="9426357E-BB43-5B42-0B55-6829F6E87DBB">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:05:26 UTC</createdTime>
+<comment><![CDATA[Nome do material]]></comment>
+<generatorID>EC6D418D-B3A4-D0D7-AFD4-4AF63BCDE7B4</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hmat_preco" id="84B7304A-CAF0-9D55-E8DD-B95900DF9A93">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:05:26 UTC</createdTime>
+<comment><![CDATA[Valor unitário de material]]></comment>
+<generatorID>513FE56B-160A-A13F-6A55-0F6E7F41BF6A</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hmat_quantidade" id="C7AB3AAD-28FA-2814-7362-4E59B17AC50B">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:05:26 UTC</createdTime>
+<comment><![CDATA[Quantidade total do material]]></comment>
+<generatorID>137E2E35-0C41-3555-8B89-096F7FA35416</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hTIPOS_tip_id" id="086ED2A1-D3A4-EB82-D84D-1824E4105505">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:05:26 UTC</createdTime>
+<generatorID>403D2B38-26CC-8DA1-6A73-5EE20CB8780D</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hmat_dt_entrada " id="1B79C75F-FD71-AC9A-0E66-FE961B96411B">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-17 20:05:34 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42B800B7-9E76-12F1-4F3E-BDE7D1A530A8" name="PK_HMAT">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:05:26 UTC</createdTime>
+<generatorID>FA9DF8AE-EC62-6BB7-9512-87F9D1867516</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3511DE2F-DCD8-A439-4BFA-D05686A3F6AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

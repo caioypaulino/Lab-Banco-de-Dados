@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13DC0E9B-4214-4F3A-1E23-C8FE6788E35B" name="FORNECEDORES">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Tabela com finalidade o armazenamento de dados dos fornecedores]]></comment>
+<generatorID>D6CEFBB8-0364-2D5D-2BF0-230C33ACE1D6</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="for_id" id="3A111F6D-723C-5AD4-F154-DE76F9143533">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Número identificador de fornecedor]]></comment>
+<generatorID>5CA3A26C-367C-CD5C-CF97-D8FDAEF4F3EF</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_nome" id="596C878D-0679-5EAD-25D1-1A1FE727FB94">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Nome do fornecedor]]></comment>
+<generatorID>FAACD5E0-A661-AD17-ED7F-200C391BAA48</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_logradouro" id="11D875B0-F270-C464-C944-155AADE3698C">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Nome da rua do fornecedor]]></comment>
+<generatorID>49DDAF41-7CC0-07F4-6540-43060FAC7306</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_numero" id="61FA3A19-8ABF-98B3-43E2-62348482F7BF">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Numero do complemento do fornecedor]]></comment>
+<generatorID>426C4A40-47FB-2C9C-8402-A05F95D484FF</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_complemento" id="F318099B-80A3-528B-0CAA-BA9CA69FCAD5">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Tipo de complemento do fornecedor]]></comment>
+<generatorID>FC0940CD-AB37-809E-5C3B-33FB87887BB8</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_bairro" id="8D910F06-6F15-E3FE-8E79-AA3C98F5B50C">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Nome do bairro do fornecedor]]></comment>
+<generatorID>5859D5F8-01E3-23BF-0475-764A912C4C0E</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_cidade" id="59A69A52-488A-26F2-729B-2544142CE77A">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[ Nome da cidade do fornecedor]]></comment>
+<generatorID>CA4E9F5E-F3B3-B2FE-0FA6-848884757B5E</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_estado" id="4614B9B8-5024-5B95-1E83-9E1FDBF62417">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Nome do estado do fornecedor]]></comment>
+<generatorID>4C3D0D6C-EA65-A237-CBF2-4E20D2EA2CE8</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_cep" id="07D4F247-7E88-F542-F4A3-7902F0828F2F">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Número de cep do fornecedor]]></comment>
+<generatorID>6D4B5861-5405-3534-475A-4286C5C38788</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_telefone_fixo" id="08B1FD0F-1A63-B4E7-4E91-346AF6F6A320">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Número de telefone fixo do fornecedor ]]></comment>
+<generatorID>3979CE99-DF5C-2DA7-B460-B3E4B204AA06</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_telefone_movel" id="8B15E494-1361-637B-A00B-B87C97BE78C5">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Número de telefone móvel do fornecedor]]></comment>
+<generatorID>CD51F65D-ABDE-770F-EBCB-D4E0774F73F1</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="for_email" id="CCFCAE9D-DDFD-DFFE-E45A-F1CCE618C64C">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<comment><![CDATA[Endereço de email do fornecedor]]></comment>
+<generatorID>CB80E827-D155-2BCE-039B-CF6AC994C5A0</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D8E3D26-9F6C-7DD7-0C1F-0FBB3348B770" name="PK_FOR">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>8D18C524-448A-96DA-B5BD-DB04252A26AC</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A111F6D-723C-5AD4-F154-DE76F9143533"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

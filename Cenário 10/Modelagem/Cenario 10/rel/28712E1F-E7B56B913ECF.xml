@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="28712E1F-D43D-840A-D067-E7B56B913ECF" mainViewID="B4D8CE2F-35BB-3642-D0AF-8257C8FBA480">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 20:55:13 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

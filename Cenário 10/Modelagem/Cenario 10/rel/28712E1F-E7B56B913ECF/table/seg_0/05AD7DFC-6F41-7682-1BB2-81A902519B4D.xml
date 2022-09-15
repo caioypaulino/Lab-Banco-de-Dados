@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05AD7DFC-6F41-7682-1BB2-81A902519B4D" name="STAGE">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:50:05 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stg_mat_nome " id="96C29A87-1E1E-BE3A-2CB1-776EC3DD603C">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:51:47 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_mat_preco" id="842CC064-4E96-D61D-765F-B9F2DA4B5D4C">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:51:47 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_tip_nome" id="783C986E-AD81-3805-E70C-823085785628">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:52:36 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_reg_data_aquisicao" id="7AB3A4FD-168E-4F7E-2243-CC74B29E7E33">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 19:56:46 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_per_quantidade_venda" id="DFB95802-96A4-C7C7-8BFC-21BE3FD7A5C0">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:52:36 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_for_nome" id="30625805-0191-27B0-276C-4E4B577E1652">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:52:36 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_for_estado" id="52020ACD-AA6E-65AC-325A-6415844B0545">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:55:52 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_fun_nome" id="F87E01AB-44F2-E075-5EF0-D3E7954E6CEF">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:55:52 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_vnd_valor" id="366F3A63-854D-850C-36A0-EB24926123BF">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:55:52 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_vnd_tipo" id="AAED92F7-AF14-5301-B229-5D7DAC8D4C56">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:55:52 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_vnd_semana" id="F5620A6A-8F3C-36D7-3EF7-CBED57069774">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:55:52 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_vnd_trimestre" id="B5F5BBF2-6861-6214-71FF-DBC4E3BEA3E4">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:55:52 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_vnd_periodo" id="95B0C8AD-1513-F590-7707-EC6EA884F630">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:55:52 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stg_vnd_id" id="C22004F9-3FBA-8CC7-8CD5-148842553AD9">
+<createdBy>caio</createdBy>
+<createdTime>2021-11-24 04:55:52 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

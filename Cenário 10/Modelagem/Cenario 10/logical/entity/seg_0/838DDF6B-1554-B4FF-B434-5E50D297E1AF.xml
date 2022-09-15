@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="838DDF6B-1554-B4FF-B434-5E50D297E1AF" name="VENDAS">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:16:10 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vnd_id" id="DD59E74A-1737-F1EF-210D-D9C340F9AEEF">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:16:38 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vnd_data_hora" id="5A699894-7BFA-C103-781A-ACCAE675783F">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:16:50 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vnd_valor" id="E87E5684-FF94-6E5D-A7B4-FCB19C302F9A">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:17:00 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vnd_cpf_cnpj " id="56F12081-4967-8F6F-505D-DF547976FED1">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:17:05 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fun_id" id="87C5146C-BD54-C0F9-CFAA-3D4B58F58694">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:44:31 UTC</createdTime>
+<generatorID>FA2E55CE-8F90-CF09-3E4E-6ECBE57C18F2</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="true"/>
+</engineerTo>
+<referedAttribute>F351CB05-69E6-60DA-ABB8-19DB9941CF5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="465FA131-7487-0062-2037-7497E1B9DF56" name="Vendas PK">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-12 22:16:44 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="28712E1F-D43D-840A-D067-E7B56B913ECF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD59E74A-1737-F1EF-210D-D9C340F9AEEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="766E332E-31A3-84C6-8CED-51EA89BC669F" containerWithKeyObject="72AAF0C8-C8AB-2536-6EC0-EE6F76CD0D23" localFKIndex="99298395-9299-6A83-C64E-72CC884367B7" name="FK_VND_FUN">
+<createdBy>caio</createdBy>
+<createdTime>2021-08-18 03:08:47 UTC</createdTime>
+<generatorID>FA2E55CE-8F90-CF09-3E4E-6ECBE57C18F2</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<referredTableLongName>FUNCIONARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>243E45C9-BF2D-4A89-9112-6CF11EFFF2FD</referredTableID>
+<keyObject>3D393AE5-F87B-7F78-F1E5-C1A86DD22ACB</keyObject>
+<referredKeyID>3D393AE5-F87B-7F78-F1E5-C1A86DD22ACB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fun_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

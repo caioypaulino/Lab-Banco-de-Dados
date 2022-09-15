@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29DA1D7C-1DF3-43F0-146C-47989686894E" name="H_TIPOS">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:07:54 UTC</createdTime>
+<comment><![CDATA[Tabela com finalidade o armazenamento de dados dos tipos de materiais]]></comment>
+<generatorID>AAF18E2A-B61E-4D0F-8364-F584BF266C81</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<ordsAlias>tiposv1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="htip_id" id="971FD6A3-67BF-DCF8-5515-A176B6A192F1">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:07:54 UTC</createdTime>
+<comment><![CDATA[Número identificador de tipo]]></comment>
+<generatorID>1471EE4E-8C8D-21FB-D760-76BCB1218797</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="htip_nome" id="779CCC96-9A65-4641-9FBA-5C7580D6101E">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:07:54 UTC</createdTime>
+<comment><![CDATA[Nome do tipo de material]]></comment>
+<generatorID>8080602E-CC36-A687-9FF3-B66A37302696</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="htip_dt_entrada " id="5D18FC1E-F8CD-DCBC-4930-B3AAB06BD315">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-17 20:05:47 UTC</createdTime>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6C8A15C-38CE-8C2B-3F0C-C63732AD9BBA" name="PK_HTIP">
+<createdBy>caio</createdBy>
+<createdTime>2021-09-16 21:07:54 UTC</createdTime>
+<generatorID>231EE635-6B8D-FC68-F201-CF071F269730</generatorID>
+<ownerDesignName>Cenario 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="971FD6A3-67BF-DCF8-5515-A176B6A192F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
