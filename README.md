@@ -43,8 +43,10 @@ ORDER BY to_char(((SUM(per_quantidade_vendida) * 100 )/ (mat_quantidade)),'9999.
 ```
 
 Resultado:
+
 ![Strategy Query 8](https://i.ibb.co/hC2gq6f/imagem-2024-01-26-121725222.png)
   
 ## **Power BI**
 Por fim, foram realizadas algumas análises utilizando o Power BI como ferramenta de visualização.
+
 ![Power BI](https://github.com/caioypaulino/Lab-Banco-de-Dados/blob/main/Cen%C3%A1rio%2010/Power%20BI.png)
