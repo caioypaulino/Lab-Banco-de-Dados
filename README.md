@@ -1,4 +1,4 @@
-# **Laboratório de Banco de Dados Oracle Modelado e Documentado**
+# **Projeto: Laboratório de Banco de Dados (Oracle)**
 
 ## **Stack**
 Oracle SQL Server, Data Modeler, Power BI, MS Word
